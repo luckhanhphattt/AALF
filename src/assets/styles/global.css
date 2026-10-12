@@ -5,9 +5,10 @@
 body {
       margin: 0;
       font-family: "Hubot Sans";
+      overflow-x: clip;
 }
 .navbar {
-      background-color: #2f609f;
+      background-color: #060b3b;
       min-height: 100px;
       position: fixed;
       z-index: 1000;
@@ -17,20 +18,29 @@ body {
 .website_identity {
       display: flex;
       align-items: start;
+      margin-bottom: 17px;
+      margin-top: 3px;
 }
 
+.line {
+      border: 0.2px solid #222b66;
+      width: 100%;
+}
+
+
 nav img {
-      height: 2.2vw;
-      width: 4vw;
-      margin: 3.6vh 0 0 7vh;
+      height: 45px;
+      width: auto;
+      border: 0.1px solid white;
+      margin: 30px 0 0 7vh;
       object-fit: cover;
 }
 
 nav .name {
       color: white;
       font-family: "Henny Penny";
-      font-size: 4vw;
-      margin: 3.2vh 0 0 2vh;
+      font-size: 40px;
+      margin: 20px 0 0 2vh;
 }
 
 
@@ -40,12 +50,12 @@ nav .name {
       gap: 100px;
       text-decoration: none;
       list-style: none;
-      margin: 40px 0 0 80px;
+      margin: 0 0 0 80px;
       padding: 0;
 }
 
 .dropdown-list a {
-      font-size: 4vw;
+      font-size: 40px;
       font-family: "Hubot Sans";
       color: white;
 }
@@ -58,14 +68,15 @@ nav .name {
 .right-list {
       list-style: none;
       display: flex;
-      gap: 50px;
+      gap: 100px;
       list-style: none;
-      margin: 40px 56px 0 auto;
+      margin: 0 56px 0 auto;
       padding: 0;
 }
 
 .menu-icon {
-      height: 3.8vw;
+      height: 55px;
+      width: auto;
       color: white;
 
 }
@@ -78,7 +89,8 @@ nav .name {
 }
 
 .bell-icon {
-      height: 3.8vw;
+      height: 55px;
+      width: auto;
       color: white;
 }
 
@@ -132,7 +144,7 @@ nav .name {
       display: block;
       padding: 30px 30px;
       color: #222;
-      font-size: 3vw;  
+      font-size: 35px;  
 }
 
 .dropdown-menu li a:hover {
@@ -154,9 +166,9 @@ nav .name {
 .hero {
       position: relative;
       width: 100%;
-      height: 83.7vh;
+      height: 86vh;
       overflow: hidden;
-      padding-top: 20.7vh;
+      padding-top: 212px;
 }
 
 .hero-image {
@@ -273,7 +285,7 @@ nav .name {
 }
 
 .intro-card p {
-      font-size: 32px;
+      font-size: 36px;
       text-align: center;
       margin-right: 20px;
 }
@@ -306,7 +318,7 @@ nav .name {
 }
 
 .category-slogan {
-      margin: 50px 40px 0 16%;
+      margin: 50px 70px 0 70px;
 }
 
 .category-slogan h3 {
@@ -323,22 +335,19 @@ nav .name {
 }
 
 .category-type {
-      display: grid;
-      grid-template-columns:repeat(2, 1fr);
-      grid-template-rows:repeat(2, 1fr);
-      margin: 70px auto 0 15%;
-      column-gap: 300px;
+      display: flex;
       justify-content: center;
       align-items: center;
+      margin: 20px auto 0px 80px;
 }
 
 .type-element {
       font-size: 50px;
       text-align: center;
       color: white;
-      text-decoration: underline;
-      border-radius: 8px;
-      padding: 16px;
+      border: 0.5px solid white;
+      padding: 24px;
+      background-color: #1551a0;
 
 }
 
@@ -352,4 +361,228 @@ nav .name {
 /*--------------------*/
 /*    TESTIMONIALS    */
 /*--------------------*/
+
+aside h3 {
+      font-size: 120px;
+      color: #1f71cf;
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 50px;
+}
+
+.testimonial {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      margin: 0 120px 90px 120px;
+      color: white;
+
+}
+
+.testi-card {
+      height: auto;
+      width:fit-content;
+      background-color: #0080bc;
+      
+}
+
+.testi-star {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+}
+
+.star {
+      height: 3.8vh;
+      color: yellow;
+      width: auto;
+}
+
+.comment {
+      display: flex;
+      gap: 2vw;
+      margin: 0 45px;
+}
+
+.comment h4 {
+      font-size: 45px;
+      margin-right: 2vw;
+      text-align: center;
+}
+
+.testi-note {
+      display: flex;
+      gap: 1.5vw;
+      margin: 0 55px 20px 45px;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.level {
+      font-size: 45px;
+      margin: 0 0 0 40px;
+}
+
+.name {
+      margin-top: 0;
+      font-size: 50px;
+      margin-right: 50px;
+      text-align: center;
+}
+
+.testi-image {
+      margin-right: 50px;
+      margin-top: 30px;
+      height: 220px;
+      width: auto;
+}
+
+.join-now {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      text-decoration: underline;
+      width: fit-content;
+      margin: 0 auto 160px auto;
+      padding: 0;
+
+}
+
+.join-now h4 {
+      font-size: 65px;
+      font-weight:normal;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+}
+
+.arrow-now {
+      height: 40px;
+      width: auto;
+      margin-top: 8px;
+      font-weight: 800;
+      padding: 0;
+}
+
+.join-now:hover {
+      text-shadow: 0 0 1.5px black;
+      transition: all 0.5s;
+      transform: scale(1.02);
+      cursor: pointer;
+      text-decoration: underline;
+}
+
+/*--------------------*/
+/*       FOOTERS      */
+/*--------------------*/
+
+.footer-part {
+      display: flex;
+      align-items: start;
+      background-color: #060b3b;
+      color: white;
+      gap: 200px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+}
+
+.footer-part h5 {
+      font-size: 40px;
+      margin-top: 20px;
+}
+
+.frenchflag {
+      height: 30px;
+      width: auto;
+      border: 0.1px solid white;
+}
+
+.footer-identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 25px;
+      font-family: "Henny Penny";
+      margin: 0 0 0 100px;
+      padding-right: 80px;
+}
+
+.footer-identity p {
+      margin-top: 31px;
+}
+
+.footer-slogan {
+      margin-left: 130px;
+      margin-top: 0;
+      padding: 0;
+      font-size: 21px;
+}
+
+.footer-media {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-left: 170px;
+}
+
+.app-icon {
+      color: white;
+}
+
+
+.footer-element {
+      font-size: 30px;
+}
+
+.footer-learning {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+}
+
+.footer-more {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding-right: 600px;
+}
+
+.footer-email {
+      font-size: 30px;
+}
+
+.footer-email a:hover {
+      transition: all 0.5s;
+      text-shadow: 0 0 2px white;
+      cursor: pointer;
+}
+
+.footer-element:hover {
+      transition: all 0.5s;
+      text-shadow: 0 0 2px white;
+      cursor: pointer;
+}
+
+.app-icon {
+      color: white;
+      height: 60px;
+      width: auto;
+      padding-top: 100px;
+}
+
+.app-icon:hover {
+      cursor: pointer;
+      
+}
+
+article {
+      background-color: #060b3b;
+      margin-top: 0;
+      padding: 0;
+}
+
 
