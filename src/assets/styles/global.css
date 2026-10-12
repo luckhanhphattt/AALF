@@ -1,0 +1,355 @@
+/*--------------------*/
+/*   NAVIGATION BAR   */
+/*--------------------*/
+
+body {
+      margin: 0;
+      font-family: "Hubot Sans";
+}
+.navbar {
+      background-color: #2f609f;
+      min-height: 100px;
+      position: fixed;
+      z-index: 1000;
+      width: 100%;
+}
+
+.website_identity {
+      display: flex;
+      align-items: start;
+}
+
+nav img {
+      height: 2.2vw;
+      width: 4vw;
+      margin: 3.6vh 0 0 7vh;
+      object-fit: cover;
+}
+
+nav .name {
+      color: white;
+      font-family: "Henny Penny";
+      font-size: 4vw;
+      margin: 3.2vh 0 0 2vh;
+}
+
+
+.dropdown-list {
+      display: flex;
+      align-items: center;
+      gap: 100px;
+      text-decoration: none;
+      list-style: none;
+      margin: 40px 0 0 80px;
+      padding: 0;
+}
+
+.dropdown-list a {
+      font-size: 4vw;
+      font-family: "Hubot Sans";
+      color: white;
+}
+
+.dropdown-list li {
+      cursor: pointer;
+      
+}
+
+.right-list {
+      list-style: none;
+      display: flex;
+      gap: 50px;
+      list-style: none;
+      margin: 40px 56px 0 auto;
+      padding: 0;
+}
+
+.menu-icon {
+      height: 3.8vw;
+      color: white;
+
+}
+
+.menu-icon:hover {
+      filter: drop-shadow(0 0px 40px rgb(255, 255, 255));
+      transition: all 0.1s;
+      transform: scale(1.05);
+      cursor: pointer;
+}
+
+.bell-icon {
+      height: 3.8vw;
+      color: white;
+}
+
+.bell-icon:hover {
+      filter: drop-shadow(0 0px 40px rgb(255, 255, 255));
+      transition: all 0.1s;
+      transform: scale(1.05);
+      cursor: pointer;
+}
+
+.general-list {
+      display: flex;
+      align-items: center;
+}
+
+.nav-item {
+      position: relative;
+      padding: 20px 20px;
+}
+
+
+.nav-button:hover {
+      text-shadow: 0 0px 40px rgb(255, 255, 255);
+      transition: all 0.2s;
+      transform: scale(1.05);
+      cursor: pointer;
+}
+
+.nav-item > a {
+      display: block;
+      color: white;
+      text-decoration: none;
+}
+
+.dropdown-menu {
+      list-style: none;
+      position: absolute;
+      display: none;
+      top: 100%;
+      left: 0;
+      margin: 0;
+      padding: 0;
+      min-width: 10vw;
+      background-color: white;
+      border: 1px solid #ccc;
+      z-index: 100;
+}
+
+.dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 3vw;  
+}
+
+.dropdown-menu li a:hover {
+      background-color: #e8effa;
+      transition: all 0.8s;
+      cursor: pointer;
+}
+
+.nav-item:hover, .nav-item:hover > .dropdown-menu, .nav-item:focus-within > .dropdown-menu {
+      display: block;
+}
+
+
+
+/*--------------------*/
+/*     BACKGROUND     */
+/*--------------------*/
+
+.hero {
+      position: relative;
+      width: 100%;
+      height: 83.7vh;
+      overflow: hidden;
+      padding-top: 20.7vh;
+}
+
+.hero-image {
+      height: 120%;
+      width: 100%;
+      object-fit: cover;
+      display: block;
+
+}
+
+.hero-text {
+      position: absolute;
+      top: 40%;
+      left: 5%;
+      z-index: 3;
+}
+
+.hero-text h1 {
+      font-size: 8vw;
+      font-family: "Hubot Sans";
+      font-style: italic;
+      color: #214473;
+}
+
+/*--------------------*/
+/*      MAIN PART     */
+/*--------------------*/
+
+/*--------------------*/
+/*        SLOGAN      */
+/*--------------------*/
+
+.slogan-part {
+      min-height: 20vh;
+      padding: 6vh 0;
+}
+
+.slogan {
+      text-align: center;
+      font-size: 11vw;
+      font-weight: bold;
+      margin: 0;
+}
+
+.sub-slogan-text {
+      font-size: 6vw;
+      text-align: center;
+}
+
+/*--------------------*/
+/*     EXPLANATION    */
+/*--------------------*/
+
+.intro {
+      display: flex;
+}
+
+.explanation {
+      background-color: #072c5a;
+      height: auto;
+      color: white;
+      width: 65%;
+}
+
+.explanation h2 {
+      font-size: 60px;
+      color:rgba(124, 202, 254, 0.573);
+      padding: 40px 0 0 70px;
+}
+
+.explanation p {
+      font-size: 40px;
+      padding: 0 40px 0 70px;
+}
+
+.explanation p span {
+      color:rgb(161, 248, 248)
+}
+
+.eiffel {
+      height: auto;
+      width: 35%;
+      object-fit: cover;
+}
+
+.intro-card {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      margin: 190px 120px 30px 70px;
+      height: auto;
+}
+
+.card-selection {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background-color: rgb(255, 255, 255);
+      padding: 30px 40px;
+      
+}
+
+.intro-card p,h3 {
+      color: black;
+      
+}
+
+.intro-card h3 {
+      font-size: 52px;
+      text-align: center;
+      
+}
+
+.intro-card p {
+      font-size: 32px;
+      text-align: center;
+      margin-right: 20px;
+}
+
+.card1 h3 {
+      color: firebrick;
+}
+
+.card2 h3 {
+      color:darkcyan;
+}
+
+.card3 h3 {
+      color:limegreen;
+}
+
+.card4 h3 {
+      color:darkviolet;
+}
+
+/*--------------------*/
+/*       CATEGORY     */
+/*--------------------*/
+
+.category {
+      display: flex;
+      background-color: #1B4677;
+      height: auto;
+      padding-bottom: 50px;
+}
+
+.category-slogan {
+      margin: 50px 40px 0 16%;
+}
+
+.category-slogan h3 {
+      font-size: 60px;
+      color:rgb(161, 248, 248);
+      text-align:right;
+}
+
+.category-slogan p {
+      font-size: 40px;
+      color: white;
+      text-align: right;
+      margin-left: 30%;
+}
+
+.category-type {
+      display: grid;
+      grid-template-columns:repeat(2, 1fr);
+      grid-template-rows:repeat(2, 1fr);
+      margin: 70px auto 0 15%;
+      column-gap: 300px;
+      justify-content: center;
+      align-items: center;
+}
+
+.type-element {
+      font-size: 50px;
+      text-align: center;
+      color: white;
+      text-decoration: underline;
+      border-radius: 8px;
+      padding: 16px;
+
+}
+
+.type-element:hover {
+      text-shadow: 0 0 10px white;
+      transition: all 0.5s;
+      transform: scale(1.05);
+      cursor: pointer;
+}
+
+/*--------------------*/
+/*    TESTIMONIALS    */
+/*--------------------*/
+
