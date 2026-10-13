@@ -6,7 +6,7 @@ import "./components/layout/nav_footer_query.css";
 function App() {
   return (<>
     <Navbar />
-    <Info />
+    <Home />
     <Footer />
   </>);
 }
