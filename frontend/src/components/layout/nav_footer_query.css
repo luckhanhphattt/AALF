@@ -33,7 +33,7 @@
       }
 
       .footer-slogan {
-            font-size: 25px;
+            font-size: 26px;
             margin-left: 150px;
       }
 }
@@ -85,6 +85,94 @@
       }
 }
 
+@media (max-width: 2050px) {
+      .footer-element {
+            font-size: 22px;
+      }
+
+      .footer-identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: clamp(12px, 2.5vw, 30px);
+      font-family: "Henny Penny";
+      margin: 0 0 0 120px;
+      padding-right: 0px;
+      }
+
+      .footer-slogan {
+      margin-left: 128px;
+      margin-top: 0;
+      padding: 0;
+      font-size: 24px;
+      }
+
+
+      .footer-media {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-left: 198px;
+      }
+
+      .app-icon {
+            margin-top: 0px;
+            height: 60px;
+            width: auto;
+            padding-top: 45px;
+      }
+
+      .footer-part h5 {
+            font-size: 26px;
+      }
+
+      .footer-more {
+            padding-right: 50px;
+      }
+
+      .footer-email {
+            font-size: 22px;
+      }
+
+      .email {
+            padding-top: 20px;
+      }
+
+      .hero-text {
+      left: 4%;
+      }
+
+      .hero {
+      padding-top: 214px;
+      }
+
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 30px;  
+      }
+
+      .dropdown-list a {
+      font-size: 35px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 45px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 45px;
+      width: auto;
+      color: white;
+      }
+}
+
 @media (max-width: 1940px) {
       .footer-element {
             font-size: 22px;
@@ -100,11 +188,19 @@
       padding-right: 0px;
       }
 
+      .footer-slogan {
+      margin-left: 124px;
+      margin-top: 0;
+      padding: 0;
+      font-size: 24px;
+      }
+
+
       .footer-media {
       display: flex;
       gap: 30px;
       align-items: center;
-      margin-left: 178px;
+      margin-left: 188px;
       }
 
       .app-icon {
