@@ -387,17 +387,6 @@ aside h3 {
       
 }
 
-.testi-star {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-}
-
-.star {
-      height: 3.8vh;
-      color: yellow;
-      width: auto;
-}
 
 .comment {
       display: flex;
@@ -483,7 +472,7 @@ aside h3 {
       align-items: start;
       background-color: #060b3b;
       color: white;
-      gap: 200px;
+      gap: 250px;
       padding-top: 50px;
       padding-bottom: 50px;
 }
@@ -503,7 +492,7 @@ aside h3 {
       display: flex;
       align-items: center;
       gap: 12px;
-      font-size: 25px;
+      font-size: clamp(12px, 2.5vw, 30px);
       font-family: "Henny Penny";
       margin: 0 0 0 100px;
       padding-right: 80px;
@@ -548,7 +537,7 @@ aside h3 {
       flex-direction: column;
       align-items: center;
       gap: 20px;
-      padding-right: 600px;
+      padding-right: 500px;
 }
 
 .footer-email {
@@ -563,7 +552,7 @@ aside h3 {
 
 .footer-element:hover {
       transition: all 0.5s;
-      text-shadow: 0 0 2px white;
+      text-shadow: 0 0 3px white;
       cursor: pointer;
 }
 
