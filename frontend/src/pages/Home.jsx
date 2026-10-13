@@ -1,4 +1,5 @@
 import "./home.css";
+import "./home_query.css";
 import arcDeTriomphe from "../assets/images/arc_de_triomphe.jpg";
 import eiffel from "../assets/images/eiffel.jpg";
 
