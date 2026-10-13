@@ -1,10 +1,12 @@
 import "./home.css";
+import arcDeTriomphe from "../assets/images/arc_de_triomphe.jpg";
+import eiffel from "../assets/images/eiffel.jpg";
 
 function Home() {
       return (
             <main>
       <section className="hero">
-            <img className="hero-image" src="src/assets/images/arc_de_triomphe.jpg" />
+            <img className="hero-image" src={arcDeTriomphe} />
             <div className="hero-text">
                   <h1>Parlez Français</h1>
                   <h1>Vivez Français</h1>
@@ -38,7 +40,7 @@ function Home() {
                         </div>
                         </div>
                   </div>
-                  <img className="eiffel" src="src/assets/images/eiffel.jpg" />
+                  <img className="eiffel" src={eiffel}/>
             </div>
 
             <div className="category">
