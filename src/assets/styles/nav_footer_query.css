@@ -1,0 +1,1046 @@
+
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 2410px) {
+
+      .footer-part {
+            gap: 180px;
+      }
+      .footer-identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: clamp(12px, 2.5vw, 30px);
+      font-family: "Henny Penny";
+      margin: 0 0 0 120px;
+      padding-right: 0px;
+      }
+
+      .footer-media {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-left: 220px;
+      }
+
+      .app-icon {
+            margin-top: 0px;
+            height: 60px;
+            width: auto;
+            padding-top: 96px;
+      }
+
+      .footer-slogan {
+            font-size: 25px;
+            margin-left: 150px;
+      }
+}
+
+@media (max-width: 2250px) {
+      .footer-element {
+            font-size: 24px;
+      }
+
+      .footer-identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: clamp(12px, 2.5vw, 30px);
+      font-family: "Henny Penny";
+      margin: 0 0 0 120px;
+      padding-right: 0px;
+      }
+
+      .footer-media {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-left: 178px;
+      }
+
+      .app-icon {
+            margin-top: 0px;
+            height: 60px;
+            width: auto;
+            padding-top: 55px;
+      }
+
+      .footer-part h5 {
+            font-size: 30px;
+      }
+
+      .footer-more {
+            padding-right: 380px;
+      }
+
+      .footer-email {
+            font-size: 25px;
+            
+      }
+
+      .email {
+            padding-top: 20px;
+      }
+}
+
+@media (max-width: 1940px) {
+      .footer-element {
+            font-size: 22px;
+      }
+
+      .footer-identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: clamp(12px, 2.5vw, 30px);
+      font-family: "Henny Penny";
+      margin: 0 0 0 120px;
+      padding-right: 0px;
+      }
+
+      .footer-media {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-left: 178px;
+      }
+
+      .app-icon {
+            margin-top: 0px;
+            height: 60px;
+            width: auto;
+            padding-top: 55px;
+      }
+
+      .footer-part h5 {
+            font-size: 26px;
+      }
+
+      .footer-more {
+            padding-right: 50px;
+      }
+
+      .footer-email {
+            font-size: 22px;
+      }
+
+      .email {
+            padding-top: 20px;
+      }
+
+      .hero-text {
+      left: 4%;
+      }
+
+      .hero {
+      padding-top: 214px;
+      }
+
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 30px;  
+      }
+
+      .dropdown-list a {
+      font-size: 35px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 45px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 45px;
+      width: auto;
+      color: white;
+      }
+}
+
+@media (max-width: 1760px) {
+      .footer-element {
+            font-size: 20px;
+      }
+
+      .footer-part h5 {
+            font-size: 26px;
+      }
+
+      .footer-identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: clamp(12px, 2.5vw, 30px);
+      font-family: "Henny Penny";
+      margin: 0 0 0 120px;
+      padding-right: 0px;
+      }
+
+      .footer-media {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-left: 178px;
+      }
+
+      .app-icon {
+            margin-top: 0px;
+            height: 60px;
+            width: auto;
+            padding-top: 55px;
+      }
+
+      .footer-more {
+            padding-right: 0px;
+      }
+
+      .footer-email {
+            font-size: 20px;
+      }
+
+      .email {
+            padding-top: 20px;
+      }
+
+      .hero-text {
+            left: 2%;
+            display: none;
+      }
+
+      .hero {
+      padding-top: 191.5px;
+      }
+
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 28px;  
+      }
+
+      .dropdown-list a {
+      font-size: 32px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 40px;
+      margin: 25px 0 0 7vh;
+}
+
+      nav .name {
+      font-size: 32px;
+      margin: 20px 0 0 2vh;
+      }
+}
+
+@media (max-width: 1660px) {
+
+      .frenchflag {
+      height: 28px;
+      width: auto;
+      border: 0.1px solid white;
+      }
+
+      .footer-identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: clamp(12px, 2.5vw, 30px);
+      font-family: "Henny Penny";
+      margin: 0 0 0 130px;
+      padding-right: 0px;
+      }
+
+      .footer-media {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-left: 175px;
+      }
+
+      .app-icon {
+            margin-top: 0px;
+            height: 60px;
+            width: auto;
+            padding-top: 60px;
+      }
+
+      .footer-element {
+            font-size: 20px;
+      }
+
+      .footer-part h5 {
+            font-size: 26px;
+      }
+
+      .footer-more {
+            padding-right: 0px;
+      }
+
+      .footer-email {
+            font-size: 20px;
+      }
+
+      .email {
+            padding-top: 20px;
+      }
+
+      .hero-text {
+            left: 2%;
+            display: none;
+      }
+
+      .hero {
+      padding-top: 183px;
+      }
+
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 24px;  
+      }
+
+      .dropdown-list a {
+      font-size: 28px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 38px;
+      margin: 23px 0 0 7vh;
+      }
+
+      nav .name {
+      font-size: 32px;
+      margin: 18px 0 0 2vh;
+      }
+}
+
+@media (max-width: 1600px) {
+      .frenchflag {
+      height: 28px;
+      width: auto;
+      border: 0.1px solid white;
+      }
+
+      .footer-identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: clamp(12px, 2.5vw, 30px);
+      font-family: "Henny Penny";
+      margin: 0 0 0 100px;
+      padding-right: 0px;
+      }
+
+      .footer-media {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-left: 140px;
+      }
+
+      .app-icon {
+            margin-top: 0px;
+            height: 60px;
+            width: auto;
+            padding-top: 60px;
+      }
+
+      .footer-part {
+            gap: 160px;
+      }
+
+      .footer-slogan {
+      margin-left: 115px;
+      margin-top: 0;
+      padding: 0;
+      font-size: 18px;
+      }
+
+      .footer-element {
+            font-size: 20px;
+      }
+
+      .footer-part h5 {
+            font-size: 26px;
+      }
+
+      .footer-learning {
+            padding: 0 20px;
+      }
+
+      .footer-more {
+            padding: 0 20px;
+      }
+
+      .footer-email {
+            font-size: 20px;
+      }
+
+      .footer-intouch {
+            padding: 0 20px;
+      }
+
+      .email {
+            padding-top: 20px;
+      }
+
+      .hero-text {
+            left: 2%;
+            display: none;
+      }
+
+      .hero {
+      padding-top: 183px;
+      }
+
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 24px;  
+      }
+
+      .dropdown-list a {
+      font-size: 28px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 38px;
+      margin: 23px 0 0 7vh;
+      }
+
+      nav .name {
+      font-size: 32px;
+      margin: 18px 0 0 2vh;
+      }
+}
+
+@media (max-width: 1500px) {
+      .frenchflag {
+      height: 28px;
+      width: auto;
+      border: 0.1px solid white;
+      }
+
+      .footer-identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: clamp(12px, 2.5vw, 30px);
+      font-family: "Henny Penny";
+      margin: 0 0 0 100px;
+      padding-right: 0px;
+      }
+
+      .footer-part {
+            gap: 160px;
+      }
+
+      .footer-element {
+            font-size: 20px;
+      }
+
+      .footer-media {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-left: 152px;
+      }
+
+      .app-icon {
+            margin-top: 0px;
+            height: 50px;
+            width: auto;
+            padding-top: 78px;
+      }
+
+      .footer-part h5 {
+            font-size: 26px;
+      }
+
+      .footer-learning {
+            padding: 0 20px;
+      }
+
+      .footer-more {
+            padding: 0 20px;
+      }
+
+      .footer-email {
+            font-size: 20px;
+      }
+
+      .footer-intouch {
+            padding: 0 20px;
+      }
+
+      .email {
+            padding-top: 20px;
+      }
+
+      .hero-text {
+            left: 2%;
+            display: none;
+      }
+
+      .hero {
+      padding-top: 183px;
+      }
+
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 24px;  
+      }
+
+      .dropdown-list a {
+      font-size: 28px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 38px;
+      margin: 23px 0 0 7vh;
+      }
+
+      nav .name {
+      font-size: 32px;
+      margin: 18px 0 0 2vh;
+      }
+}
+
+@media (max-width: 1420px) {
+      .frenchflag {
+      height: 28px;
+      width: auto;
+      border: 0.1px solid white;
+      }
+
+      .footer-identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: clamp(12px, 2.5vw, 30px);
+      font-family: "Henny Penny";
+      margin: 0 0 0 100px;
+      padding-right: 0px;
+      }
+
+      .footer-part {
+            gap: 130px;
+      }
+
+      .footer-media {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-left: 154px;
+      }
+
+      .app-icon {
+            margin-top: 0px;
+            height: 50px;
+            width: auto;
+            padding-top: 72px;
+      }
+
+      .footer-element {
+            font-size: 20px;
+      }
+
+      .footer-name {
+            font-size: 20px;
+      }
+
+      .footer-part h5 {
+            font-size: 26px;
+      }
+
+      .footer-learning {
+            padding: 0 20px;
+      }
+
+      .footer-more {
+            padding: 0 20px;
+      }
+
+      .footer-email {
+            font-size: 20px;
+      }
+
+      .footer-intouch {
+            padding: 0 20px;
+      }
+
+      .email {
+            padding-top: 20px;
+      }
+
+      .hero-text {
+            left: 2%;
+            display: none;
+      }
+
+      .hero {
+      padding-top: 183px;
+      }
+
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 24px;  
+      }
+
+      .dropdown-list a {
+      font-size: 28px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 38px;
+      margin: 23px 0 0 7vh;
+      }
+
+      nav .name {
+      font-size: 32px;
+      margin: 18px 0 0 2vh;
+      }
+}
+
+@media (max-width: 1320px) {
+      .frenchflag {
+      height: 28px;
+      width: auto;
+      border: 0.1px solid white;
+      }
+
+      .footer-identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: clamp(12px, 2.5vw, 30px);
+      font-family: "Henny Penny";
+      margin: 0 0 0 100px;
+      padding-right: 0px;
+      }
+
+      .footer-part {
+            gap: 110px;
+      }
+
+      .footer-element {
+            font-size: 20px;
+      }
+
+      .footer-part h5 {
+            font-size: 26px;
+      }
+
+      .footer-media {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-left: 152px;
+      }
+
+      .app-icon {
+            margin-top: 0px;
+            height: 50px;
+            width: auto;
+            padding-top: 72px;
+      }
+
+      .footer-learning {
+            padding: 0 20px;
+      }
+
+      .footer-more {
+            padding: 0 20px;
+      }
+
+      .footer-email {
+            font-size: 20px;
+      }
+
+      .footer-intouch {
+            padding: 0 20px;
+      }
+
+      .email {
+            padding-top: 20px;
+      }
+
+      .hero-text {
+            left: 2%;
+            display: none;
+      }
+
+      .hero {
+      padding-top: 183px;
+      }
+
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 24px;  
+      }
+
+      .dropdown-list a {
+      font-size: 28px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 38px;
+      margin: 23px 0 0 7vh;
+      }
+
+      nav .name {
+      font-size: 32px;
+      margin: 18px 0 0 2vh;
+      }
+}
+
+@media (max-width: 1270px) {
+
+      .frenchflag {
+      height: 28px;
+      width: auto;
+      border: 0.1px solid white;
+      }
+
+      .footer-identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 30px;
+      font-family: "Henny Penny";
+      margin: 0 0 0 100px;
+      padding-right: 20px;
+      }
+
+      .footer-part {
+            gap: 80px;
+      }
+
+      .footer-media {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-left: 148px;
+      }
+
+      .app-icon {
+            margin-top: 0px;
+            height: 50px;
+            width: auto;
+            padding-top: 70px;
+      }
+
+      .footer-element {
+            font-size: 18px;
+      }
+
+      .footer-identity p {
+            margin-top: 31px;
+            font-size: 10px;
+      }
+
+      .footer-name {
+            font-size: 10px;
+      }
+
+      .footer-part h5 {
+            font-size: 26px;
+      }
+
+      .footer-learning {
+            padding: 0 20px;
+      }
+
+      .footer-more {
+            padding: 0 20px;
+      }
+
+      .footer-email {
+            font-size: 20px;
+      }
+
+      .footer-intouch {
+            padding: 0 20px;
+      }
+
+      .email {
+            padding-top: 20px;
+      }
+
+      .hero-text {
+            left: 2%;
+            display: none;
+      }
+
+      .hero {
+      padding-top: 183px;
+      }
+
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 24px;  
+      }
+
+      .dropdown-list a {
+      font-size: 28px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 38px;
+      margin: 23px 0 0 7vh;
+      }
+
+      nav .name {
+      font-size: 32px;
+      margin: 18px 0 0 2vh;
+      }
+}
+
+@media (max-width: 1180px) {
+      .frenchflag {
+      height: 28px;
+      width: auto;
+      border: 0.1px solid white;
+      }
+
+      .footer-identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 30px;
+      font-family: "Henny Penny";
+      margin: 0 0 0 80px;
+      padding-right: 20px;
+      }
+
+      .footer-part {
+            gap: 80px;
+      }
+
+      .footer-element {
+            font-size: 18px;
+      }
+
+      .footer-identity p {
+            margin-top: 31px;
+            font-size: 10px;
+      }
+
+      .footer-slogan {
+      margin-left: 75px;
+      margin-top: 0;
+      padding: 0;
+      font-size: 21px;
+      }
+
+      .footer-name {
+            font-size: 10px;
+      }
+
+      .footer-media {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-left: 122px;
+      }
+
+      .app-icon {
+            margin-top: 0px;
+            height: 50px;
+            width: auto;
+            padding-top: 50px;
+      }
+
+      .footer-part h5 {
+            font-size: 22px;
+      }
+
+      .footer-learning {
+            padding: 0 20px;
+      }
+
+      .footer-more {
+            padding: 0 20px;
+      }
+
+      .footer-email {
+            font-size: 18px;
+      }
+
+      .footer-intouch {
+            padding: 0 20px;
+      }
+
+      .email {
+            padding-top: 20px;
+      }
+
+      .hero-text {
+            left: 2%;
+            display: none;
+      }
+
+      .hero {
+      padding-top: 183px;
+      }
+
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 24px;  
+      }
+
+      .dropdown-list a {
+      font-size: 28px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 38px;
+      margin: 23px 0 0 7vh;
+      }
+
+      nav .name {
+      font-size: 32px;
+      margin: 18px 0 0 2vh;
+      }
+}
