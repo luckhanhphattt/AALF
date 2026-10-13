@@ -1,5 +1,5 @@
 import franceFlag from "../../assets/styles/france_flag.png";
-import "../../assets/styles/footer.css";
+import "./footer.css";
 
 function Footer() {
       return (

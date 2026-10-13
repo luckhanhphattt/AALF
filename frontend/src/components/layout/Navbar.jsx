@@ -1,4 +1,4 @@
-import "../../assets/styles/navbar.css";
+import "./navbar.css";
 import franceFlag from "../../assets/images/france_flag.png";
 
 function Navbar() {
