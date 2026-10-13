@@ -1,4 +1,4 @@
-import franceFlag from "../../assets/styles/france_flag.png";
+import franceFlag from "../../assets/images/france_flag.png";
 import "./footer.css";
 
 function Footer() {

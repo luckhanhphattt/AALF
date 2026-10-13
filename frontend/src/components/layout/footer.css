@@ -7,9 +7,17 @@
       gap: 250px;
       padding-top: 50px;
       padding-bottom: 50px;
+      width: 100%;
+      margin: 0;
+      box-sizing: border-box ;
+}
+
+.footer-name {
+  font-family: "Henny Penny", cursive;
 }
 
 .footer-part h5 {
+      font-family: "Hubot Sans", sans-serif;
       font-size: 40px;
       margin-top: 20px;
 }
@@ -39,6 +47,7 @@
       margin-top: 0;
       padding: 0;
       font-size: 21px;
+      font-family: "Hubot Sans", sans-serif;
 }
 
 .footer-media {
@@ -55,6 +64,7 @@
 
 .footer-element {
       font-size: 30px;
+      font-family: "Hubot Sans", sans-serif;
 }
 
 .footer-learning {
@@ -74,6 +84,7 @@
 
 .footer-email {
       font-size: 30px;
+      font-family: "Hubot Sans", sans-serif;
 }
 
 .footer-email a:hover {

@@ -1,7 +1,14 @@
-import Home from "./pages/Home.jsx"
+import Navbar from "./components/layout/Navbar.jsx";
+import Info from "./pages/Info.jsx";
+import Footer from "./components/layout/Footer.jsx";
+import "./components/layout/nav_footer_query.css";
 
 function App() {
-  return <Home />;
+  return (<>
+    <Navbar />
+    <Info />
+    <Footer />
+  </>);
 }
 
 export default App;
