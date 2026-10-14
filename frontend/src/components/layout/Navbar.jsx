@@ -6,7 +6,7 @@ function Navbar() {
             <nav className="navbar">
             <div className="website_identity">
                   <img src={franceFlag} alt="French flag"/>
-                  <p className="name">Bonjour My French</p>
+                  <p className="name">AALF</p>
             </div>
             <hr className="line" />
 

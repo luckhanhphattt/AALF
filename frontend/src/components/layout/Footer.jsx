@@ -7,7 +7,7 @@ function Footer() {
                   <div className="total-left">
                         <div className="footer-identity">
                               <img className="frenchflag" src={franceFlag} />
-                              <p className="footer-name">Bonjour My French</p>
+                              <p className="footer-name">AALF</p>
                         </div>
                         <p className="footer-slogan">"Parlez Français, Vivez Français"</p>
                         <div className="footer-media">
@@ -32,8 +32,8 @@ function Footer() {
                   <div className="footer-intouch">
                         <h5>Get in touch</h5>
                         <div className="footer-email">
-                              <p className="email">Email: hello@bonjourmyfrench.com</p>
-                              <p>&copy; 2026 Bonjour My French, All rights reserved.</p>
+                              <p className="email">Email: aalf@français.com</p>
+                              <p>&copy; 2026 AALF, All rights reserved.</p>
                               <a>Privacy Policy</a>
                         </div>
                   </div>
