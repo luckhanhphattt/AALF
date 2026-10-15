@@ -23,6 +23,8 @@
 }
 
 
+/*---Directory formatting---*/
+
 .directory {
   display: flex;
   font-size: clamp(25px,4vw,40px);
@@ -39,10 +41,11 @@
   color: black;
 }
 
-.home-button:hover, .aboutus-button {
+
+.home-button:hover, .aboutus-button:hover{
   text-shadow: 0 0 1px black;
-  transform: scale(1.02);
-  transition: all 0.7s ease-in;
+  transform: scale(1.05);
+  transition: all 0.7s;
 }
 
 
@@ -61,3 +64,5 @@
 .about-us-title h1{
   margin-bottom: 0;
 }
+
+/*---------*/

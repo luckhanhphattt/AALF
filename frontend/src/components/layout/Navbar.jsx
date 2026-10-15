@@ -67,7 +67,7 @@ function Navbar() {
                               </li>
 
                               <li>
-                                    <a href="#">Help & FAQ</a>
+                                    <NavLink to="/helpfaq">Help & FAQ</NavLink>
                               </li>
                         </ul>
                   </li>
