@@ -21,11 +21,11 @@ function Navbar() {
                         <a className="nav-button">Lesson</a>
                         <ul className="dropdown-menu">
                               <li>
-                                    <a href="#">Grammar</a>
+                                    <NavLink to="/grammar">Grammar</NavLink>
                               </li>
 
                               <li>
-                                    <a href="#">Vocabulary</a>
+                                    <NavLink to="/vocabulary">Vocabulary</NavLink>
                               </li>
                         </ul>
                   </li>
@@ -34,23 +34,23 @@ function Navbar() {
                         <a className="nav-button">Practice</a>
                         <ul className="dropdown-menu">
                               <li>
-                                    <a href="#">Reading</a>
+                                    <NavLink to="/reading">Reading</NavLink>
                               </li>
 
                               <li>
-                                    <a href="#">Writing</a>
+                                    <NavLink to="/writing">Writing</NavLink>
                               </li>
 
                               <li>
-                                    <a href="#">Listening</a>
+                                    <NavLink to="/listening">Listening</NavLink>
                               </li>
 
                               <li>
-                                    <a href="#">Speaking</a>
+                                    <NavLink to="/speaking">Speaking</NavLink>
                               </li>
 
                               <li>
-                                    <a href="#">Exams</a>
+                                    <NavLink to="/exams">Exams</NavLink>
                               </li>
                         </ul>
                   </li>
