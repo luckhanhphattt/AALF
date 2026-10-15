@@ -1,5 +1,3 @@
-/* MEDIA QUERY */
-
 @media (max-width: 2410px) {
 
       .footer-part {
@@ -11,12 +9,8 @@
       gap: 12px;
       font-size: clamp(12px, 2.5vw, 30px);
       font-family: "Henny Penny";
-      margin: 0 0 0 240px;
+      margin: 0 0 0 120px;
       padding-right: 0px;
-      }
-
-      .frenchflag {
-      margin-left: 85px;
       }
 
       .footer-media {
@@ -34,7 +28,7 @@
       }
 
       .footer-slogan {
-            font-size: 26px;
+            font-size: 25px;
             margin-left: 150px;
       }
 }
@@ -50,7 +44,7 @@
       gap: 12px;
       font-size: clamp(12px, 2.5vw, 30px);
       font-family: "Henny Penny";
-      margin: 0 0 0 0px;
+      margin: 0 0 0 120px;
       padding-right: 0px;
       }
 
@@ -81,104 +75,8 @@
             
       }
 
-      .frenchflag {
-      margin-left: 88px;
-      }
-
       .email {
             padding-top: 20px;
-      }
-}
-
-@media (max-width: 2050px) {
-      .footer-element {
-            font-size: 22px;
-      }
-
-      .footer-identity {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      font-size: clamp(12px, 2.5vw, 30px);
-      font-family: "Henny Penny";
-      margin: 0 0 0 120px;
-      padding-right: 0px;
-      }
-
-      .footer-slogan {
-      margin-left: 128px;
-      margin-top: 0;
-      padding: 0;
-      font-size: 24px;
-      }
-
-
-      .footer-media {
-      display: flex;
-      gap: 30px;
-      align-items: center;
-      margin-left: 198px;
-      }
-
-      .app-icon {
-            margin-top: 0px;
-            height: 60px;
-            width: auto;
-            padding-top: 45px;
-      }
-
-      .footer-part h5 {
-            font-size: 26px;
-      }
-
-      .footer-more {
-            padding-right: 50px;
-      }
-
-      .footer-email {
-            font-size: 22px;
-      }
-
-      .frenchflag {
-      margin-left: 96px;
-      }
-
-      .email {
-            padding-top: 20px;
-      }
-
-      .hero-text {
-      left: 4%;
-      }
-
-      .hero {
-      padding-top: 214px;
-      }
-
-      .dropdown-menu li a {
-      text-decoration: none;
-      display: block;
-      padding: 30px 30px;
-      color: #222;
-      font-size: 30px;  
-      }
-
-      .dropdown-list a {
-      font-size: 35px;
-      font-family: "Hubot Sans";
-      color: white;
-      }
-
-      .bell-icon {
-      height: 45px;
-      width: auto;
-      color: white;
-      }
-
-      .menu-icon {
-      height: 45px;
-      width: auto;
-      color: white;
       }
 }
 
@@ -197,19 +95,11 @@
       padding-right: 0px;
       }
 
-      .footer-slogan {
-      margin-left: 124px;
-      margin-top: 0;
-      padding: 0;
-      font-size: 24px;
-      }
-
-
       .footer-media {
       display: flex;
       gap: 30px;
       align-items: center;
-      margin-left: 188px;
+      margin-left: 178px;
       }
 
       .app-icon {
@@ -233,40 +123,6 @@
 
       .email {
             padding-top: 20px;
-      }
-
-      .hero-text {
-      left: 4%;
-      }
-
-      .hero {
-      padding-top: 214px;
-      }
-
-      .dropdown-menu li a {
-      text-decoration: none;
-      display: block;
-      padding: 30px 30px;
-      color: #222;
-      font-size: 30px;  
-      }
-
-      .dropdown-list a {
-      font-size: 35px;
-      font-family: "Hubot Sans";
-      color: white;
-      }
-
-      .bell-icon {
-      height: 45px;
-      width: auto;
-      color: white;
-      }
-
-      .menu-icon {
-      height: 45px;
-      width: auto;
-      color: white;
       }
 }
 
@@ -311,57 +167,8 @@
             font-size: 20px;
       }
 
-      .frenchflag {
-      margin-left: 102px;
-      }
-
       .email {
             padding-top: 20px;
-      }
-
-      .hero-text {
-            left: 2%;
-            display: none;
-      }
-
-      .hero {
-      padding-top: 191.5px;
-      }
-
-      .dropdown-menu li a {
-      text-decoration: none;
-      display: block;
-      padding: 30px 30px;
-      color: #222;
-      font-size: 28px;  
-      }
-
-      .dropdown-list a {
-      font-size: 32px;
-      font-family: "Hubot Sans";
-      color: white;
-      }
-
-      .bell-icon {
-      height: 42px;
-      width: auto;
-      color: white;
-      }
-
-      .menu-icon {
-      height: 42px;
-      width: auto;
-      color: white;
-      }
-
-      nav img {
-      height: 40px;
-      margin: 25px 0 0 7vh;
-}
-
-      nav .name {
-      font-size: 32px;
-      margin: 20px 0 0 2vh;
       }
 }
 
@@ -416,51 +223,6 @@
       .email {
             padding-top: 20px;
       }
-
-      .hero-text {
-            left: 2%;
-            display: none;
-      }
-
-      .hero {
-      padding-top: 183px;
-      }
-
-      .dropdown-menu li a {
-      text-decoration: none;
-      display: block;
-      padding: 30px 30px;
-      color: #222;
-      font-size: 24px;  
-      }
-
-      .dropdown-list a {
-      font-size: 28px;
-      font-family: "Hubot Sans";
-      color: white;
-      }
-
-      .bell-icon {
-      height: 42px;
-      width: auto;
-      color: white;
-      }
-
-      .menu-icon {
-      height: 42px;
-      width: auto;
-      color: white;
-      }
-
-      nav img {
-      height: 38px;
-      margin: 23px 0 0 7vh;
-      }
-
-      nav .name {
-      font-size: 32px;
-      margin: 18px 0 0 2vh;
-      }
 }
 
 @media (max-width: 1600px) {
@@ -485,10 +247,6 @@
       gap: 30px;
       align-items: center;
       margin-left: 140px;
-      }
-
-      .frenchflag {
-      margin-left: 60px;
       }
 
       .app-icon {
@@ -535,51 +293,6 @@
 
       .email {
             padding-top: 20px;
-      }
-
-      .hero-text {
-            left: 2%;
-            display: none;
-      }
-
-      .hero {
-      padding-top: 183px;
-      }
-
-      .dropdown-menu li a {
-      text-decoration: none;
-      display: block;
-      padding: 30px 30px;
-      color: #222;
-      font-size: 24px;  
-      }
-
-      .dropdown-list a {
-      font-size: 28px;
-      font-family: "Hubot Sans";
-      color: white;
-      }
-
-      .bell-icon {
-      height: 42px;
-      width: auto;
-      color: white;
-      }
-
-      .menu-icon {
-      height: 42px;
-      width: auto;
-      color: white;
-      }
-
-      nav img {
-      height: 38px;
-      margin: 23px 0 0 7vh;
-      }
-
-      nav .name {
-      font-size: 32px;
-      margin: 18px 0 0 2vh;
       }
 }
 
@@ -644,6 +357,91 @@
 
       .email {
             padding-top: 20px;
+      }
+
+      .join-now h4 {
+            font-size: 36px;
+      }
+
+      .comment h4 {
+            font-size: 25px;
+            margin-right: 2vw;
+            text-align: center;
+      }
+
+      .level {
+            font-size: 28px;
+            margin: 0 0 0 40px;
+      }
+
+      .name {
+            margin-top: 0;
+            font-size: 30px;
+            margin-right: 50px;
+      }
+
+      .testi-image {
+            height: 120px;
+            width: auto;
+      }
+
+      aside h3 {
+      font-size: 70px;
+      }
+
+      .type-element {
+      font-size: 22px;
+      }
+
+      .card-selection {
+      padding: 10px 10px;
+      }
+
+      .category-slogan p {
+      font-size: 28px;
+      }
+
+      .category-slogan h3 {
+      font-size: 32px;
+      }
+
+      .intro-card h3 {
+      font-size: 35px;
+      }
+
+      .intro-card p {
+      font-size: 20px;
+      text-align: center;
+      margin-right: 20px;
+      }
+
+      .intro-card {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+      }
+
+      .explanation h2 {
+      font-size: 40px;
+      color:rgba(124, 202, 254, 0.573);
+      padding: 40px 0 0 70px;
+      }
+
+      .explanation p {
+      font-size: 32px;
+      padding: 0 40px 0 70px;
+      }
+
+      .slogan {
+      text-align: center;
+      font-size: 75px;
+      font-weight: bold;
+      margin: 0;
+      }
+
+      .sub-slogan-text {
+      font-size: 40px;
+      text-align: center;
       }
 
       .hero-text {
@@ -759,6 +557,91 @@
             padding-top: 20px;
       }
 
+      .join-now h4 {
+            font-size: 36px;
+      }
+
+      .comment h4 {
+            font-size: 25px;
+            margin-right: 2vw;
+            text-align: center;
+      }
+
+      .level {
+            font-size: 28px;
+            margin: 0 0 0 40px;
+      }
+
+      .name {
+            margin-top: 0;
+            font-size: 30px;
+            margin-right: 50px;
+      }
+
+      .testi-image {
+            height: 120px;
+            width: auto;
+      }
+
+      aside h3 {
+      font-size: 70px;
+      }
+
+      .type-element {
+      font-size: 22px;
+      }
+
+      .card-selection {
+      padding: 10px 10px;
+      }
+
+      .category-slogan p {
+      font-size: 28px;
+      }
+
+      .category-slogan h3 {
+      font-size: 32px;
+      }
+
+      .intro-card h3 {
+      font-size: 35px;
+      }
+
+      .intro-card p {
+      font-size: 20px;
+      text-align: center;
+      margin-right: 20px;
+      }
+
+      .intro-card {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+      }
+
+      .explanation h2 {
+      font-size: 40px;
+      color:rgba(124, 202, 254, 0.573);
+      padding: 40px 0 0 70px;
+      }
+
+      .explanation p {
+      font-size: 28px;
+      padding: 0 40px 0 70px;
+      }
+
+      .slogan {
+      text-align: center;
+      font-size: 75px;
+      font-weight: bold;
+      margin: 0;
+      }
+
+      .sub-slogan-text {
+      font-size: 40px;
+      text-align: center;
+      }
+
       .hero-text {
             left: 2%;
             display: none;
@@ -866,6 +749,91 @@
 
       .email {
             padding-top: 20px;
+      }
+
+      .join-now h4 {
+            font-size: 36px;
+      }
+
+      .comment h4 {
+            font-size: 22px;
+            margin-right: 2vw;
+            text-align: center;
+      }
+
+      .level {
+            font-size: 25px;
+            margin: 0 0 0 40px;
+      }
+
+      .name {
+            margin-top: 0;
+            font-size: 28px;
+            margin-right: 50px;
+      }
+
+      .testi-image {
+            height: 110px;
+            width: auto;
+      }
+
+      aside h3 {
+      font-size: 65px;
+      }
+
+      .type-element {
+      font-size: 22px;
+      }
+
+      .card-selection {
+      padding: 10px 10px;
+      }
+
+      .category-slogan p {
+      font-size: 28px;
+      }
+
+      .category-slogan h3 {
+      font-size: 32px;
+      }
+
+      .intro-card h3 {
+      font-size: 35px;
+      }
+
+      .intro-card p {
+      font-size: 20px;
+      text-align: center;
+      margin-right: 20px;
+      }
+
+      .intro-card {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+      }
+
+      .explanation h2 {
+      font-size: 40px;
+      color:rgba(124, 202, 254, 0.573);
+      padding: 40px 0 0 70px;
+      }
+
+      .explanation p {
+      font-size: 28px;
+      padding: 0 40px 0 70px;
+      }
+
+      .slogan {
+      text-align: center;
+      font-size: 70px;
+      font-weight: bold;
+      margin: 0;
+      }
+
+      .sub-slogan-text {
+      font-size: 35px;
+      text-align: center;
       }
 
       .hero-text {
@@ -985,6 +953,91 @@
 
       .email {
             padding-top: 20px;
+      }
+
+      .join-now h4 {
+            font-size: 36px;
+      }
+
+      .comment h4 {
+            font-size: 22px;
+            margin-right: 2vw;
+            text-align: center;
+      }
+
+      .level {
+            font-size: 25px;
+            margin: 0 0 0 40px;
+      }
+
+      .name {
+            margin-top: 0;
+            font-size: 28px;
+            margin-right: 50px;
+      }
+
+      .testi-image {
+            height: 110px;
+            width: auto;
+      }
+
+      aside h3 {
+      font-size: 65px;
+      }
+
+      .type-element {
+      font-size: 22px;
+      }
+
+      .card-selection {
+      padding: 10px 10px;
+      }
+
+      .category-slogan p {
+      font-size: 28px;
+      }
+
+      .category-slogan h3 {
+      font-size: 32px;
+      }
+
+      .intro-card h3 {
+      font-size: 35px;
+      }
+
+      .intro-card p {
+      font-size: 20px;
+      text-align: center;
+      margin-right: 20px;
+      }
+
+      .intro-card {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+      }
+
+      .explanation h2 {
+      font-size: 40px;
+      color:rgba(124, 202, 254, 0.573);
+      padding: 40px 0 0 70px;
+      }
+
+      .explanation p {
+      font-size: 28px;
+      padding: 0 40px 0 70px;
+      }
+
+      .slogan {
+      text-align: center;
+      font-size: 70px;
+      font-weight: bold;
+      margin: 0;
+      }
+
+      .sub-slogan-text {
+      font-size: 35px;
+      text-align: center;
       }
 
       .hero-text {
@@ -1110,6 +1163,101 @@
 
       .email {
             padding-top: 20px;
+      }
+
+      .join-now h4 {
+            font-size: 36px;
+      }
+
+      .comment h4 {
+            font-size: 18px;
+            margin-right: 2vw;
+            text-align: center;
+      }
+
+      .level {
+            font-size: 20px;
+            margin: 0 0 0 40px;
+      }
+
+      .name {
+            margin-top: 0;
+            font-size: 24px;
+            margin-right: 50px;
+      }
+
+      .testi-image {
+            height: 110px;
+            width: auto;
+      }
+
+      aside h3 {
+      font-size: 65px;
+      }
+
+      .type-element {
+      font-size: 22px;
+      }
+
+      .card-selection {
+      padding: 10px 10px;
+      }
+
+      .category-slogan p {
+      font-size: 26px;
+      }
+
+      .category-slogan h3 {
+      font-size: 32px;
+      }
+
+      .category-type {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      justify-content: center;
+      align-items: center;
+      margin: 20px auto 0px 80px;
+      }
+
+      .intro-card h3 {
+      font-size: 25px;
+      }
+
+      .intro-card p {
+            display: none;
+      }
+
+      .intro-card {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            justify-content: center;
+            align-items: center;
+            margin-top: 80px;
+      }
+
+      .explanation h2 {
+      font-size: 40px;
+      color:rgba(124, 202, 254, 0.573);
+      padding: 40px 0 0 70px;
+      }
+
+      .explanation p {
+      font-size: 25px;
+      padding: 0 40px 0 70px;
+      }
+
+      .slogan {
+      text-align: center;
+      font-size: 60px;
+      font-weight: bold;
+      margin: 0;
+      }
+
+      .sub-slogan-text {
+      font-size: 30px;
+      text-align: center;
       }
 
       .hero-text {

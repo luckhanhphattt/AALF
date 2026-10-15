@@ -74,7 +74,7 @@ function Help_FAQ () {
                   <h2>Progress</h2>
             </li>
             <li>
-                  <h3>What does </h3>
+                  <h3>What if I'm not ready to start immediately?</h3>
                   <p>Start with the level that best matches
                   your current French ability. Feel free to stroll around!
                   </p>

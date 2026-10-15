@@ -271,7 +271,6 @@ aside h3 {
       gap: 10px;
       align-items: center;
       justify-content: center;
-      text-decoration: underline;
       width: fit-content;
       margin: 0 auto 160px auto;
       padding: 0;
@@ -292,13 +291,5 @@ aside h3 {
       margin-top: 8px;
       font-weight: 800;
       padding: 0;
-}
-
-.join-now:hover {
-      text-shadow: 0 0 1.5px black;
-      transition: all 0.5s;
-      transform: scale(1.02);
-      cursor: pointer;
-      text-decoration: underline;
 }
 

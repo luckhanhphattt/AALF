@@ -34,7 +34,7 @@
   gap: 12px;
   font-size: clamp(12px, 2.5vw, 30px);
   font-family: "Henny Penny";
-  margin: 0 0 0 300px;
+  margin: 0 0 0 165px;
   padding-right: 0px;
 }
 
@@ -45,6 +45,7 @@
 .footer-slogan {
   margin-left: 112px;
   margin-top: 0;
+  margin-bottom: 10px;
   padding: 0;
   font-size: 36px;
   font-family: "Hubot Sans", sans-serif;
@@ -54,15 +55,17 @@
   display: flex;
   gap: 30px;
   align-items: center;
-  margin-left: 190px;
+  margin-left: 235px;
 }
 
 .app-icon {
-  color: white;
+      margin-top: 0;
 }
 
 .footer-element {
   font-size: 30px;
+  color: white;
+  text-decoration: none;
   font-family: "Hubot Sans", sans-serif;
 }
 

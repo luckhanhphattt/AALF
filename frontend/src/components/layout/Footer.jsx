@@ -1,5 +1,7 @@
 import franceFlag from "../../assets/images/france_flag.png";
 import "./footer.css";
+import "./footer_query.css";
+import {NavLink} from "react-router-dom";
 
 function Footer() {
       return (
@@ -18,16 +20,16 @@ function Footer() {
                   
                   <div className="footer-learning">
                         <h5>Learning</h5>
-                        <a className="footer-element">Grammar</a>
-                        <a className="footer-element">Vocabulary</a>
-                        <a className="footer-element">Exams</a>
+                        <NavLink className="footer-element" to="/grammar">Grammar</NavLink>
+                        <NavLink className="footer-element" to="/vocabulary">Vocabulary</NavLink>
+                        <NavLink className="footer-element" to="exams">Exams</NavLink>
                   </div>
                   
                   <div className="footer-more">
                         <h5>More</h5>
-                        <a className="footer-element">Info</a>
-                        <a className="footer-element">Help & FAQ</a>
-                        <a className="footer-element">About Us</a>
+                        <NavLink className="footer-element" to="info">Info</NavLink>
+                        <NavLink className="footer-element" to="helpfaq">Help & FAQ</NavLink>
+                        <NavLink className="footer-element" to="aboutus">About Us</NavLink>
                   </div>
                   <div className="footer-intouch">
                         <h5>Get in touch</h5>

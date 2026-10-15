@@ -1,0 +1,331 @@
+@media (max-width: 1940px) {
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 30px;  
+      }
+
+      .dropdown-list a {
+      font-size: 35px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 45px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 45px;
+      width: auto;
+      color: white;
+      }
+}
+
+@media (max-width: 1760px) {
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 28px;  
+      }
+
+      .dropdown-list a {
+      font-size: 32px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 40px;
+      margin: 25px 0 0 7vh;
+}
+
+      nav .name {
+      font-size: 32px;
+      margin: 20px 0 0 2vh;
+      }
+}
+
+@media (max-width: 1660px) {
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 24px;  
+      }
+
+      .dropdown-list a {
+      font-size: 28px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 38px;
+      margin: 23px 0 0 7vh;
+      }
+
+      nav .name {
+      font-size: 32px;
+      margin: 18px 0 0 2vh;
+      }
+}
+
+@media (max-width: 1600px) {
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 24px;  
+      }
+
+      .dropdown-list a {
+      font-size: 28px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 38px;
+      margin: 23px 0 0 7vh;
+      }
+
+      nav .name {
+      font-size: 32px;
+      margin: 18px 0 0 2vh;
+      }
+}
+
+@media (max-width: 1500px) {
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 24px;  
+      }
+
+      .dropdown-list a {
+      font-size: 28px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 38px;
+      margin: 23px 0 0 7vh;
+      }
+
+      nav .name {
+      font-size: 32px;
+      margin: 18px 0 0 2vh;
+      }
+}
+
+@media (max-width: 1420px) {
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 24px;  
+      }
+
+      .dropdown-list a {
+      font-size: 28px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 38px;
+      margin: 23px 0 0 7vh;
+      }
+
+      nav .name {
+      font-size: 32px;
+      margin: 18px 0 0 2vh;
+      }
+}
+
+@media (max-width: 1320px) {
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 24px;  
+      }
+
+      .dropdown-list a {
+      font-size: 28px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 38px;
+      margin: 23px 0 0 7vh;
+      }
+
+      nav .name {
+      font-size: 32px;
+      margin: 18px 0 0 2vh;
+      }
+}
+
+@media (max-width: 1270px) {
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 24px;  
+      }
+
+      .dropdown-list a {
+      font-size: 28px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 38px;
+      margin: 23px 0 0 7vh;
+      }
+
+      nav .name {
+      font-size: 32px;
+      margin: 18px 0 0 2vh;
+      }
+}
+
+@media (max-width: 1180px) {
+      .dropdown-menu li a {
+      text-decoration: none;
+      display: block;
+      padding: 30px 30px;
+      color: #222;
+      font-size: 24px;  
+      }
+
+      .dropdown-list a {
+      font-size: 28px;
+      font-family: "Hubot Sans";
+      color: white;
+      }
+
+      .bell-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      .menu-icon {
+      height: 42px;
+      width: auto;
+      color: white;
+      }
+
+      nav img {
+      height: 38px;
+      margin: 23px 0 0 7vh;
+      }
+
+      nav .name {
+      font-size: 32px;
+      margin: 18px 0 0 2vh;
+      }
+}

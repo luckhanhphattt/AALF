@@ -5,11 +5,11 @@ function AboutUs() {
   return (
     <main className="info-page">
       <div className="directory">
-        <NavLink class="home-button" to="/" end>Home</NavLink>
+        <NavLink className="home-button" to="/" end>Home</NavLink>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="arrow-right">
         <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
         </svg>
-        <NavLink class="aboutus-button" to="/aboutus">About Us</NavLink>
+        <NavLink className="aboutus-button" to="/aboutus">About Us</NavLink>
       </div>
       <div class="about-us-title">
       <h1>About Us</h1>

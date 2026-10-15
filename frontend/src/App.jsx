@@ -1,6 +1,6 @@
+
 import Navbar from "./components/layout/Navbar.jsx";
 import Footer from "./components/layout/Footer.jsx";
-import "./components/layout/nav_footer_query.css";
 import Home from "./pages/Home.jsx";
 import Grammar from "./pages/Grammar.jsx";
 import Vocabulary from "./pages/Vocabulary.jsx";

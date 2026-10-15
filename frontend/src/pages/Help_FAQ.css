@@ -14,19 +14,14 @@
   gap: 2vw;
 }
 
-.home-button {
-  color: black;
-
-}
-
-.helpfaq-button {
-  color: black;
+.home-button, .helpfaq-button {
+      color: blue;
 }
 
 .home-button:hover, .helpfaq-button:hover{
-  text-shadow: 0 0 1px black;
   transform: scale(1.05);
   transition: all 0.7s;
+  cursor: pointer;
 }
 
 
@@ -50,7 +45,7 @@
 .help-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 80px;
+      gap: 5vw;
       margin: 10vw 15vw 5vw 15vw;
       font-size: clamp(14px, 3vw, 30px);
       text-align: justify;
