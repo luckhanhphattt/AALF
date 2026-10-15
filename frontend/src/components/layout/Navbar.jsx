@@ -1,5 +1,6 @@
 import "./navbar.css";
 import franceFlag from "../../assets/images/france_flag.png";
+import {NavLink} from "react-router-dom";
 
 function Navbar() {
       return (
@@ -13,7 +14,7 @@ function Navbar() {
             <div className="general-list">
             <ul className="dropdown-list">
                   <li className="nav-item">
-                        <a className="nav-button">Home</a>
+                        <NavLink className="nav-button" to="/" end>Home</NavLink>
                   </li>
 
                   <li className="nav-item">
@@ -62,7 +63,7 @@ function Navbar() {
                               </li>
 
                               <li>
-                                    <a href="#">About Us</a>
+                                    <NavLink to="/aboutus">About Us</NavLink>
                               </li>
 
                               <li>

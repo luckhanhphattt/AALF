@@ -1,0 +1,63 @@
+.info-page {
+  flex: 1;
+  margin-top: clamp(240px, 12vw, 300px);
+}
+
+.question-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 10vw 15vw 5vw 15vw;
+  font-size: clamp(14px, 4vw, 30px);
+  text-align: justify;
+}
+
+.question-list h2 {
+  font-weight: normal;
+  color:blue;
+  margin-bottom: 0;
+}
+
+.list-item {
+  margin-bottom: 50px;
+}
+
+
+.directory {
+  display: flex;
+  font-size: clamp(25px,4vw,40px);
+  align-items: center;
+  margin-left: 100px;
+  gap: 2vw;
+}
+
+.home-button {
+  color: black;
+}
+
+.aboutus-button {
+  color: black;
+}
+
+.home-button:hover, .aboutus-button {
+  text-shadow: 0 0 1px black;
+  transform: scale(1.02);
+  transition: all 0.7s ease-in;
+}
+
+
+.arrow-right {
+  height: clamp(15px, 3vw, 40px);
+  width: auto;
+}
+
+.about-us-title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 5vw;
+  margin-bottom: 50px;
+}
+
+.about-us-title h1{
+  margin-bottom: 0;
+}

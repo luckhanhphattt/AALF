@@ -1,15 +1,14 @@
-
 .footer-part {
-      display: flex;
-      align-items: start;
-      background-color: #060b3b;
-      color: white;
-      gap: 250px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      width: 100%;
-      margin: 0;
-      box-sizing: border-box ;
+  display: flex;
+  align-items: start;
+  background-color: #060b3b;
+  color: white;
+  gap: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .footer-name {
@@ -17,104 +16,101 @@
 }
 
 .footer-part h5 {
-      font-family: "Hubot Sans", sans-serif;
-      font-size: 40px;
-      margin-top: 20px;
+  font-family: "Hubot Sans", sans-serif;
+  font-size: 40px;
+  margin-top: 20px;
 }
 
 .frenchflag {
-      height: 30px;
-      width: auto;
-      border: 0.1px solid white;
+  height: 30px;
+  width: auto;
+  border: 0.1px solid white;
+  margin-left: 80px;
 }
 
 .footer-identity {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      font-size: clamp(12px, 2.5vw, 30px);
-      font-family: "Henny Penny";
-      margin: 0 0 0 100px;
-      padding-right: 80px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: clamp(12px, 2.5vw, 30px);
+  font-family: "Henny Penny";
+  margin: 0 0 0 300px;
+  padding-right: 0px;
 }
 
 .footer-identity p {
-      margin-top: 31px;
+  margin-top: 31px;
 }
 
 .footer-slogan {
-      margin-left: 112px;
-      margin-top: 0;
-      padding: 0;
-      font-size: 27px;
-      font-family: "Hubot Sans", sans-serif;
+  margin-left: 112px;
+  margin-top: 0;
+  padding: 0;
+  font-size: 36px;
+  font-family: "Hubot Sans", sans-serif;
 }
 
 .footer-media {
-      display: flex;
-      gap: 30px;
-      align-items: center;
-      margin-left: 190px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-left: 190px;
 }
 
 .app-icon {
-      color: white;
+  color: white;
 }
 
-
 .footer-element {
-      font-size: 30px;
-      font-family: "Hubot Sans", sans-serif;
+  font-size: 30px;
+  font-family: "Hubot Sans", sans-serif;
 }
 
 .footer-learning {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .footer-more {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      padding-right: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-right: 500px;
 }
 
 .footer-email {
-      font-size: 30px;
-      font-family: "Hubot Sans", sans-serif;
+  font-size: 30px;
+  font-family: "Hubot Sans", sans-serif;
 }
 
 .footer-email a:hover {
-      transition: all 0.5s;
-      text-shadow: 0 0 2px white;
-      cursor: pointer;
+  transition: all 0.5s;
+  text-shadow: 0 0 2px white;
+  cursor: pointer;
 }
 
 .footer-element:hover {
-      transition: all 0.5s;
-      text-shadow: 0 0 3px white;
-      cursor: pointer;
+  transition: all 0.5s;
+  text-shadow: 0 0 3px white;
+  cursor: pointer;
 }
 
 .app-icon {
-      color: white;
-      height: 60px;
-      width: auto;
-      padding-top: 100px;
+  color: white;
+  height: 60px;
+  width: auto;
+  padding-top: 100px;
 }
 
 .app-icon:hover {
-      cursor: pointer;
-      
+  cursor: pointer;
 }
 
 article {
-      background-color: #060b3b;
-      margin-top: 0;
-      padding: 0;
+  background-color: #060b3b;
+  margin-top: 0;
+  padding: 0;
 }
-
-
