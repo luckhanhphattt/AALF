@@ -1,7 +1,7 @@
 
-# Bonjour My French 🇫🇷
+# AALF 🇫🇷
 
-A web project designed to support French language learning through structured lessons and focused practice.
+A web project designed to support French language learning through structured lessons and focused practice varied from level A1 to C1 with all-rounded skills (Reading, Listening, Writing, Speaking).
 
 ## Features
 
@@ -11,6 +11,9 @@ A web project designed to support French language learning through structured le
 - Flexible, self-paced learning
 
 ## Tech Stack
+
+### UI/UX
+- Figma
 
 ### Frontend
 - React
