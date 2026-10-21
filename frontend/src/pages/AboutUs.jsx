@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 
 function AboutUs() {
   return (
-    <main className="info-page">
+    <main className="aboutus-page">
       <div className="directory">
         <NavLink className="home-button" to="/" end>Home</NavLink>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="arrow-right">
