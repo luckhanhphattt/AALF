@@ -106,6 +106,7 @@ function Info () {
                         <div className="item mastery"></div>
                         <div className="item history"></div>
                   </div>
+                  
             </aside>
 
       </main>);
