@@ -1,0 +1,181 @@
+
+/* ===== Carousel container ===== */
+.level-carousel {
+  width: 90%;
+  margin: 80px auto;
+  overflow: hidden;
+  font-family: "Hubot Sans", sans-serif;
+}
+
+/* ===== Heading and navigation buttons ===== */
+.carousel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 30px;
+}
+
+.carousel-heading h2 {
+  margin: 0;
+  color: #214473;
+  font-size: clamp(28px, 3vw, 48px);
+  font-weight: 700;
+}
+
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.carousel-controls button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 48px;
+  height: 48px;
+
+  border: none;
+  border-radius: 50%;
+
+  background-color: #214473;
+  color: white;
+
+  font-size: 25px;
+  cursor: pointer;
+
+  transition:
+    background-color 0.25s ease,
+    transform 0.25s ease,
+    opacity 0.25s ease;
+}
+
+.carousel-controls button:hover:not(:disabled) {
+  background-color: #3269a5;
+  transform: scale(1.08);
+}
+
+.carousel-controls button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* ===== Visible carousel window ===== */
+.carousel-viewport {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* ===== Sliding row of cards ===== */
+.carousel-track {
+  display: flex;
+  align-items: stretch;
+  transition: transform 0.45s ease-in-out;
+  will-change: transform;
+}
+
+/* ===== Individual level cards ===== */
+.level-card {
+  box-sizing: border-box;
+  flex: 0 0 33.333333%;
+  min-width: 0;
+
+  padding: 24px;
+  border: 1px solid #d9e2f0;
+  border-radius: 16px;
+
+  background-color: #f4f7fc;
+  color: #26364a;
+
+  transition:
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.level-card:hover {
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(33, 68, 115, 0.14);
+}
+
+/* ===== Level label: A1, A2, B1... ===== */
+.level-card-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 110px;
+  margin-bottom: 22px;
+
+  border-radius: 12px;
+  background-color: #214473;
+  color: #ffffff;
+
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* ===== Card title ===== */
+.level-card h3 {
+  margin: 0 0 14px;
+  color: #214473;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+/* ===== Card description ===== */
+.level-card p {
+  margin: 0;
+  color: #53657b;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* ===== Small screens: still show 3 cards ===== */
+@media (max-width: 600px) {
+  .level-carousel {
+    width: 94%;
+    margin: 45px auto;
+  }
+
+  .carousel-heading {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .carousel-heading h2 {
+    font-size: 23px;
+  }
+
+  .carousel-controls {
+    gap: 6px;
+  }
+
+  .carousel-controls button {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+  }
+
+  .level-card {
+    padding: 10px;
+  }
+
+  .level-card-label {
+    min-height: 70px;
+    margin-bottom: 12px;
+    font-size: 28px;
+  }
+
+  .level-card h3 {
+    font-size: 15px;
+  }
+
+  .level-card p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
