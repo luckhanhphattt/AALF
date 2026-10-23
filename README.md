@@ -22,6 +22,17 @@ A web project designed to support French language learning through structured le
 - CSS
 - JavaScript
 
+## Backend
+- Java / Spring Boot
+- REST APIs
+
+## Deployment
+- Vercel
+
+## Domain
+- Cloudflare
+
+
 ### Planned
 - Backend: To be decided
 - Database: To be decided
