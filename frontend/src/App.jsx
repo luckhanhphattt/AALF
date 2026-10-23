@@ -12,6 +12,8 @@ import Exam from "./pages/Exam.jsx";
 import Info from "./pages/Info.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
 import Help_FAQ from "./pages/Help_FAQ.jsx";
+import Collection from "./pages/Collection.jsx";
+import Discover from "./pages/Discover.jsx";
 import {Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
       <Route path="/info" element={<Info />} />
       <Route path="/aboutus" element={<AboutUs />} />
       <Route path="/helpfaq" element={<Help_FAQ />} />
+      <Route path="/collection" element={<Collection />} />
+      <Route path="/discover" element={<Discover />} />
     </Routes>
     <Footer />
   </>);

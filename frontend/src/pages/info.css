@@ -176,10 +176,37 @@ aside h2 {
 }
 
 .progress-list {
-      position: relative;
+      display: flex;
+      gap: 50px;
+      align-items: center;
+      justify-content: center;
+
+}
+
+.item h3 {
+      font-size: clamp(20px,4.5vw,40px);
+      margin: 60px 30px 0 30px;
 }
 
 .item {
-      position: absolute;
+      text-align: center;
 }
 
+.item p {
+      font-size: clamp(15px,3.7vw,30px);
+}
+
+/*---keep-lerning-slogan*/
+
+.keep-learning-slogan {
+      text-align: center;
+      text-decoration: none;
+      margin-top: 100px;
+      font-size: clamp(40px, 7vw, 80px);
+      margin-bottom: 20px;
+}
+
+.sub-slogan {
+      text-align: center;
+      font-size: clamp(20px, 4vw, 30px);
+}

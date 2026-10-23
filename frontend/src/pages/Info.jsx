@@ -101,12 +101,23 @@ function Info () {
                   <div className="progress-list">
                         <div className="item accuracy">
                               <h3>Accuracy</h3>
+                              <p>Measure how often you did answered questions correctly.</p>
                         </div>
-                        <div className="item average"></div>
-                        <div className="item mastery"></div>
-                        <div className="item history"></div>
+                        <div className="item average">
+                              <h3>Average Score</h3>
+                              <p>Track your average performance through completed activities.</p>
+                        </div>
+                        <div className="item mastery">
+                              <h3>Skill Mastery</h3>
+                              <p>Understand your strengths, identify areas that need practicing.</p>
+                        </div>
+                        <div className="item history">
+                              <h3>Learning History</h3>
+                              <p>Review your previous activities and see your performance changing over the time.</p>
+                        </div>
                   </div>
-                  
+                  <h2 className="keep-learning-slogan">KEEP LEARNING, KEEP PROGRESSING</h2>
+                  <p className="sub-slogan"><i>Every lesson is a valuable step in your French journey.</i></p>
             </aside>
 
       </main>);

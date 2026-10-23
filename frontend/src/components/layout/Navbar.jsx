@@ -70,6 +70,14 @@ function Navbar() {
                               <li>
                                     <NavLink to="/helpfaq">Help & FAQ</NavLink>
                               </li>
+
+                              <li>
+                                    <NavLink to="/collection">Collection</NavLink>
+                              </li>
+
+                              <li>
+                                    <NavLink to="/discover">Discover</NavLink>
+                              </li>
                         </ul>
                   </li>
             </ul>
