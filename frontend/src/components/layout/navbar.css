@@ -135,10 +135,13 @@ nav .name {
       z-index: 100;
 }
 
+.dropdown-menu li {
+      transition: background-color 0.5s ease;
+}
+
 .dropdown-menu li a {
       text-decoration: none;
       display: block;
-      border: 0.5px solid grey;
       border-top: 0;
       padding: 30px 30px;
       color: #222;
@@ -147,7 +150,6 @@ nav .name {
 
 .dropdown-menu li:hover {
       background-color: #e8effa;
-      transition: all 0.5s;
       cursor: pointer;
 }
 
@@ -188,23 +190,32 @@ nav .name {
       display: none;
       overflow: hidden;
       top: 123%;
-      z-index: -1;
+      z-index: 10;
       right: 0;
       margin: 0;
       padding: 0;
+      height: 0;
       min-width: 22vw;
       background-color: white;
       border: 1px solid #ccc;
       border-top: none;
+      overflow: hidden;
+    transition: height 0.3s ease;
+      
+}
 
+
+.right-nav-item:hover .right-dropdown-menu {
+    height: 300px;
+    overflow-y: auto;
 }
 
 .right-dropdown-menu li {
       height: fit-content;
       text-decoration: none;
       display: block;
-      padding: 10px;
-      text-align: justify;
+      padding: 0 20px;
+      text-align: right;
       margin: 0;
       z-index: 0;
       border: 0.5px solid grey;
@@ -294,7 +305,10 @@ nav .name {
       display: flex;
       color: black;
       align-items: center;
-      font-size: clamp(18px, 4vw, 30px)
+      font-size: clamp(18px, 4vw, 30px);
+      width: 100%;
+      padding: 0;
+      
 }
 
 
@@ -309,11 +323,22 @@ nav .name {
       background-color: #e8effa;
       transform: scale(1.05);
       cursor: pointer;
+         
 }
 
 
 .navlink {
       color: black;
       text-decoration: none;
+      width: 100%;
+      box-sizing: border-box;
+      display: block;
+      padding: 20px 0;
+      transition: background-color 0.5s ease;
+
+}
+
+.navlink:hover {
+      background-color: #e8effa;
 }
 

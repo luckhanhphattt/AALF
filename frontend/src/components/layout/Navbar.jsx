@@ -89,6 +89,10 @@ function Navbar() {
                         </svg></a>
                         <ul className="right-dropdown-menu">
                               <li><p>A new publication has just been added on article. Read now!!!</p></li>
+                              <li><p>A new publication has just been added on article. Read now!!!</p></li>
+                              <li><p>A new publication has just been added on article. Read now!!!</p></li>
+                              <li><p>A new publication has just been added on article. Read now!!!</p></li>
+                              <li><p>A new publication has just been added on article. Read now!!!</p></li>
                         </ul>
 
                   </li>
@@ -105,10 +109,10 @@ function Navbar() {
                                     </svg>
                               </li>
                               <li className="profile-option">
-                                    <p className="title"><NavLink className="navlink" to="/setting">Settings</NavLink></p>
+                                    <NavLink className="navlink" to="/setting">Settings</NavLink>
                               </li> 
                               <li className="profile-option">
-                                    <p className="title"><NavLink className="navlink" to="/dashboard">Dashboard</NavLink></p>
+                                    <NavLink className="navlink" to="/dashboard">Dashboard</NavLink>
                               </li> 
                               <li className="profile-option">
                                     <p className="logout title">Log out</p>
