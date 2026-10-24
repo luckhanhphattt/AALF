@@ -26,18 +26,21 @@ A web project designed to support French language learning through structured le
 - Java / Spring Boot
 - REST APIs
 
+## Database
+- PostgreSql
+
 ## Deployment
 - Vercel
 
 ## Domain
 - Cloudflare
 
+## Version Control
+- Git / GitHub
 
-### Planned
-- Backend: To be decided
-- Database: To be decided
+## Development Tools
+- VSCode, Docker
 
-## Getting Started
 
 ### Prerequisites
 - Node.js
@@ -51,7 +54,7 @@ npm install
 npm run dev
 ```
 
-Open the local URL displayed in your terminal to view the website.
+Open the local URL displayed in your terminal with the url of your localhost:{port} to view my website.
 
 ## Build
 
@@ -67,4 +70,5 @@ In development.
 
 ## License
 
-Not specified yet.
+aalffrancais_copyright_2026
+All rights reserved.
