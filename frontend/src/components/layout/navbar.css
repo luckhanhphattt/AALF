@@ -42,7 +42,7 @@ nav .name {
 .dropdown-list {
       display: flex;
       align-items: center;
-      gap: 100px;
+      gap: 80px;
       text-decoration: none;
       list-style: none;
       margin: 0 0 0 80px;
@@ -63,10 +63,13 @@ nav .name {
 .right-list {
       list-style: none;
       display: flex;
-      gap: 100px;
+      gap: 80px;
       list-style: none;
-      margin: 0 56px 0 auto;
+      margin: 6px 56px 0 auto;
       padding: 0;
+      z-index: 2;
+      align-items: center;
+      justify-content: center;
 }
 
 .menu-icon {
@@ -77,7 +80,6 @@ nav .name {
 }
 
 .menu-icon:hover {
-      filter: drop-shadow(0 0px 40px rgb(255, 255, 255));
       transition: all 0.1s;
       transform: scale(1.05);
       cursor: pointer;
@@ -90,7 +92,6 @@ nav .name {
 }
 
 .bell-icon:hover {
-      filter: drop-shadow(0 0px 40px rgb(255, 255, 255));
       transition: all 0.1s;
       transform: scale(1.05);
       cursor: pointer;
@@ -144,13 +145,175 @@ nav .name {
       font-size: 35px;  
 }
 
-.dropdown-menu li a:hover {
+.dropdown-menu li:hover {
       background-color: #e8effa;
-      transition: all 0.8s;
+      transition: all 0.5s;
       cursor: pointer;
 }
 
 .nav-item:hover, .nav-item:hover > .dropdown-menu, .nav-item:focus-within > .dropdown-menu {
       display: block;
+}
+
+
+
+.right-nav-item {
+      position: relative;
+      margin-bottom: 0;
+}
+
+.right-nav-item > a {
+      display: block;
+      color: white;
+      text-decoration: none;
+}
+
+.right-nav-item:hover, .right-nav-item:hover > .right-dropdown-menu, .right-nav-item:focus-within > .right-dropdown-menu {
+      display: block;
+}
+
+.right-nav-item::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.right-dropdown-menu {
+      padding-top: 50px;
+      list-style: none;
+      position: absolute;
+      display: none;
+      overflow: hidden;
+      top: 123%;
+      z-index: -1;
+      right: 0;
+      margin: 0;
+      padding: 0;
+      min-width: 22vw;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-top: none;
+
+}
+
+.right-dropdown-menu li {
+      height: fit-content;
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+      text-align: justify;
+      margin: 0;
+      z-index: 0;
+      border: 0.5px solid grey;
+      color: #222;
+      font-size: clamp(15px, 3vw, 30px);  
+}
+
+.right-dropdown-menu li:hover {
+      background-color: #e8effa;
+      transition: all 0.8s;
+      cursor: pointer;
+}
+
+
+/*menu-profile*/
+
+
+.menu-profile {
+      padding-top: 50px;
+      list-style: none;
+      position: absolute;
+      display: none;
+      overflow: hidden;
+      top: 123%;
+      z-index: -1;
+      right: 0;
+      margin: 0;
+      padding: 0;
+      min-width: 22vw;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-top: none;
+}
+
+.menu-profile li {
+      height: fit-content;
+      text-decoration: none;
+      display: block;
+      padding: 0;
+      margin: 0;
+      z-index: 0;
+      color: #222;
+}
+
+.right-nav-item:hover > .right-dropdown-menu,
+.right-nav-item:focus-within > .right-dropdown-menu,
+.right-nav-item:hover > .menu-profile,
+.right-nav-item:focus-within > .menu-profile {
+    display: block;
+}
+
+
+.menu-profile .avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    gap: 30%;
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    margin: 0;
+
+    background-color: white;
+    color: #222;
+    font-size: clamp(15px, 4vw, 40px);
+    text-align: left;
+}
+
+.menu-profile .avatar-image {
+    width: 5vw;
+    height: auto;
+
+    display: block;
+    margin: 0;
+
+    border-radius: 50%;
+}
+
+
+/*profile option*/
+
+.profile-option {
+      text-decoration: none;
+      text-align: center;
+      display: flex;
+      color: black;
+      align-items: center;
+      font-size: clamp(18px, 4vw, 30px)
+}
+
+
+.title {
+      text-decoration: none;
+      color: black;
+      margin: 0;
+      padding: 20px 0;
+}
+
+.title:hover {
+      background-color: #e8effa;
+      transform: scale(1.05);
+      cursor: pointer;
+}
+
+
+.navlink {
+      color: black;
+      text-decoration: none;
 }
 

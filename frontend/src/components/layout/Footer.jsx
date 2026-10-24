@@ -34,7 +34,7 @@ function Footer() {
                   <div className="footer-intouch">
                         <h5>Get in touch</h5>
                         <div className="footer-email">
-                              <p className="email">Email: aalf@français.com</p>
+                              <p className="email">Email: aalf@francais.com</p>
                               <p>&copy; 2026 AALF, All rights reserved.</p>
                               <a>Privacy Policy</a>
                         </div>

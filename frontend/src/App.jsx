@@ -14,6 +14,8 @@ import AboutUs from "./pages/AboutUs.jsx";
 import Help_FAQ from "./pages/Help_FAQ.jsx";
 import Collection from "./pages/Collection.jsx";
 import Discover from "./pages/Discover.jsx";
+import Setting from "./pages/Setting.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
 import {Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
       <Route path="/helpfaq" element={<Help_FAQ />} />
       <Route path="/collection" element={<Collection />} />
       <Route path="/discover" element={<Discover />} />
+      <Route path="/setting" element={<Setting />} />
+      <Route path="/dashboard" element={<Dashboard />} />
     </Routes>
     <Footer />
   </>);
