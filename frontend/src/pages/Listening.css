@@ -1,0 +1,21 @@
+main {
+      font-family: "Hubot Sans", sans-serif;
+}
+
+.listening-page {
+  margin-top: clamp(240px, 12vw, 300px);
+}
+
+h1 {
+      font-size: 8vw;
+      color: black;
+      text-align: center;
+      font-weight: 2000;
+}
+
+.sub-title {
+      font-size: 4vw;
+      color: black;
+      text-align: center;
+      font-weight: normal;
+}

@@ -1,0 +1,28 @@
+.directory {
+  display: flex;
+  font-size: clamp(25px,4vw,40px);
+  align-items: center;
+  margin-left: 100px;
+  gap: 2vw;
+}
+
+.home-button {
+  color: blue;
+}
+
+.directory-button {
+  color: blue;
+}
+
+
+.home-button:hover, .directory-button:hover{
+  transform: scale(1.05);
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+
+.arrow-right {
+  height: clamp(15px, 3vw, 40px);
+  width: auto;
+}

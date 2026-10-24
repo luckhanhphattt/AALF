@@ -24,6 +24,14 @@
       width: auto;
       color: white;
       }
+
+      .right-dropdown-menu {
+      top: 130%;
+      }
+
+      .menu-profile {
+            top: 130%;
+      }
 }
 
 @media (max-width: 1760px) {
@@ -99,6 +107,14 @@
       nav .name {
       font-size: 32px;
       margin: 18px 0 0 2vh;
+      }
+
+      .right-dropdown-menu {
+      top: 125%;
+      }
+
+      .menu-profile {
+            top: 125%;
       }
 }
 
